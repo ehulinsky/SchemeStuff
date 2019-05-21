@@ -12,3 +12,6 @@
     (else (power-iter base (- e 1) (* total base)))))
 
 (define (power b e) (power-iter b e 1))
+
+(power 1.00000001 100000000)
+; = 2.7182818
